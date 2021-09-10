@@ -1,4 +1,4 @@
-/*Primeiro programa em c*/
+/*First ;)*/
 
 #include <stdio.h> 
 

@@ -1,8 +1,6 @@
 #include <stdio.h>
 #include <string.h>
 
-//LUCAS MIRANDA - Numero USP: 12542838
-
 void main(){
 
 //vars
@@ -10,9 +8,11 @@ int n = 3; //nXn
 int i, j;
 float matrix[100][100]; 
 
-    printf("Insira os elementos da matriz (tipo float):\n");
+    printf("Matrix size (NxN): ") ;  
+    scanf("%d", &n);
 
-    //Pega elementos
+    printf("Insert elements(float):\n");
+
     for(i=0; i<n; i++){
         for(j=0; j<n; j++){
 
@@ -23,8 +23,7 @@ float matrix[100][100];
         }
     }
 
-    //Print Matriz
-    printf("\nMatriz:\n");
+    printf("\nMatrix:\n");
     for(i=0; i<n; i++){
         printf("\n");
         for(j=0; j<n; j++){
@@ -32,8 +31,7 @@ float matrix[100][100];
         }
     }
 
-    //Print Matriz transposta
-    printf("\n\nMatriz Transposta:\n");
+    printf("\n\nTransposed Matrix:\n");
     for(i=0; i<n; i++){
         printf("\n");
         for(j=0; j<n; j++){
